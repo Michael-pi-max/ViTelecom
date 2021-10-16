@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/src/screens/job_started.dart';
+import 'package:flutter_application_1/src/presentation/screens/job_started.dart';
 
 final choosenEquipmentsData = <Equipment>[
   Equipment(item: 'item1', quantity: "1", used: true),

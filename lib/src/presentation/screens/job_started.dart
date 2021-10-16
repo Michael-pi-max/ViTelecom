@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/src/screens/check.dart';
-import 'package:flutter_application_1/src/screens/equipments.dart';
+import 'package:flutter_application_1/src/presentation/screens/check.dart';
+import 'package:flutter_application_1/src/presentation/screens/equipments.dart';
 
-class FourthPage extends StatefulWidget {
+class JobStartedScreen extends StatefulWidget {
   @override
   _SecondPageState createState() => _SecondPageState();
 }
 
-class _SecondPageState extends State<FourthPage> {
+class _SecondPageState extends State<JobStartedScreen> {
   int currentStep = 0;
 
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/src/screens/check.dart';
-import 'package:flutter_application_1/src/screens/job_started.dart';
+import 'package:flutter_application_1/src/presentation/screens/check.dart';
+import 'package:flutter_application_1/src/presentation/screens/job_started.dart';
 
 class AddEquipments extends StatefulWidget {
   @override

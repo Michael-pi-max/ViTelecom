@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 
 import 'package:image_picker/image_picker.dart';
 
-class CompletePage extends StatefulWidget {
+class JobCompletedScreen extends StatefulWidget {
   @override
   _CompletePageState createState() => _CompletePageState();
 }
 
-class _CompletePageState extends State<CompletePage> {
+class _CompletePageState extends State<JobCompletedScreen> {
   int currentStep = 0;
   int selectedValue = 0;
   int selectedValue1 = 0;

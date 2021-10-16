@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/src/presentation/screens/todo_screen.dart';
-import 'package:flutter_application_1/src/screens/LandingScreen.dart';
-import 'package:flutter_application_1/src/screens/completion_page.dart';
-import 'package:flutter_application_1/src/screens/job_started.dart';
-import 'package:flutter_application_1/src/screens/front_page.dart';
-import 'package:flutter_application_1/src/screens/profile.dart';
-import 'package:flutter_application_1/src/screens/work_order.dart';
+import 'package:flutter_application_1/src/presentation/screens/LandingScreen.dart';
+import 'package:flutter_application_1/src/presentation/screens/completion_page.dart';
+import 'package:flutter_application_1/src/presentation/screens/front_page.dart';
+import 'package:flutter_application_1/src/presentation/screens/job_started.dart';
+import 'package:flutter_application_1/src/presentation/screens/work_order.dart';
 
 class Sidebar extends StatefulWidget {
   @override
@@ -18,9 +16,9 @@ class _SidebarState extends State<Sidebar> {
   final screens = [
     LandingScreen(),
     WorkOrderScreen(),
-    FrontPage(),
-    FourthPage(),
-    CompletePage(),
+    JobFrontScreen(),
+    JobStartedScreen(),
+    JobCompletedScreen(),
     // ProfileScreen(),
   ];
 

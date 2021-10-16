@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class FrontPage extends StatefulWidget {
+class JobFrontScreen extends StatefulWidget {
   @override
   _FrontPageState createState() => _FrontPageState();
 }
 
-class _FrontPageState extends State<FrontPage> {
+class _FrontPageState extends State<JobFrontScreen> {
   int currentStep = 0;
 
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
